@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - Projectile
+  - Asteroid Large
+  - Asteroid Medium
+  - Asteroid Small
+  - Power Up
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - Player
+  - Projectile
+  - Asteroids
+  - Ignore Collisions
+  - Border
+  - Background
+  - Post Processing
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Background
+    uniqueID: 3859368083
+    locked: 0
+  - name: Asteroid
+    uniqueID: 2475418985
+    locked: 0
+  - name: FX
+    uniqueID: 1243798263
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Gun
+    uniqueID: 1913872069
+    locked: 0
+  - name: Ship
+    uniqueID: 2042392729
+    locked: 0
