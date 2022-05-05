@@ -34,7 +34,8 @@ public class GameOver : MonoBehaviour
 
         if (GameManager.Instance.score > data.highScore) {
             highScoreText.text = "New High Score! - " + GameManager.Instance.score.ToString();
-            SaveSystem.SaveUser(data.name, GameManager.Instance.score, AchievementManager.Instance.numAchievements);
+            SaveSystem.SaveUser(data.name, GameManager.Instance.score, 
+                                    AchievementManager.Instance.numAchievements);
         } else {
             highScoreText.text = "High Score - " + data.highScore.ToString();
             SaveSystem.SaveUser(data.name, data.highScore, AchievementManager.Instance.numAchievements);

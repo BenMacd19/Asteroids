@@ -3519,8 +3519,20 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2587991682214171101, guid: a14e3b2f42e720742a6633042e76b62c, type: 3}
+      propertyPath: speed
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 2587991682214171101, guid: a14e3b2f42e720742a6633042e76b62c, type: 3}
+      propertyPath: spawnRate
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 2587991682214171101, guid: a14e3b2f42e720742a6633042e76b62c, type: 3}
       propertyPath: maxPowerUps
-      value: 5
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 2587991682214171101, guid: a14e3b2f42e720742a6633042e76b62c, type: 3}
+      propertyPath: spawnAmount
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: a14e3b2f42e720742a6633042e76b62c, type: 3}
